@@ -180,9 +180,9 @@ body{
 
 
 /*Started*/
-.graph text, tspan {
+/*.graph text, tspan {
     font-family: 'Roboto-Bold' !important;
-}
+}*/
 .cls-1 {
     fill: #c4d8f0;
 }
@@ -333,9 +333,9 @@ body{
     margin-bottom: 25px;
     font-family: 'Roboto-Bold';
 }
-.about-content tspan{
+/*.about-content tspan{
     font-family: 'Roboto-Regular' !important;
-}
+}*/
 .about-main1 tspan{
     font-family: 'Roboto-Bold' !important;
     font-size: 12px;
@@ -346,11 +346,11 @@ body{
 }
 .timeline-text{
     font-family: 'Roboto-Regular' !important;
-    font-size: 23px;
+    font-size: 18px;
 }
-.about-sub2 tspan{
+/*.about-sub2 tspan{
     font-size: 20px;
-}
+}*/
 .heading-main{
     font-size: 12px;
     color: #7993CB;
@@ -486,14 +486,7 @@ body{
     padding: 0px 5px;
 
 }
-.timeline-split{
-    width: 390px !important;
-    margin-left: 0px !important;
-    margin-top: -250px !important;
-}
-.split-1, .split-2{
-    width: 50%;
-}
+
 #Layer_51 tspan {
     font-weight: 500;
 }
