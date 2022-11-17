@@ -11,6 +11,10 @@
   src: url(../font/Helvetica-Bold.ttf);
 }
 @font-face {
+  font-family: Roboto-Light;
+  src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
   font-family: Roboto-Regular;
   src: url(../font/Roboto-Regular.ttf);
 }
@@ -346,7 +350,7 @@ body{
 }
 .timeline-text{
     font-family: 'Roboto-Regular' !important;
-    font-size: 18px;
+    font-size: 22px;
 }
 /*.about-sub2 tspan{
     font-size: 20px;
@@ -481,10 +485,8 @@ body{
     font-family: 'Roboto-Bold';
 }
 .timeline-count, .timeline-text{
-    color: #101d42 !important;
     text-align: left;
-    padding: 0px 5px;
-
+    padding: 5px 5px;
 }
 
 #Layer_51 tspan {
