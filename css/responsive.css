@@ -1,4 +1,77 @@
-@media (max-width: 768px) {
+@media only screen and (min-width:768px) and (max-width:992px){
+	
+}
+
+@media only screen and (max-width: 1200px) {
+	
+}
+@media only screen and (max-width: 992px) {
+	
+}
+@media only screen and (max-width: 768px) {
+	
+}
+@media only screen and (max-width: 600px) {
+	.content-res_view{
+		display: block;
+		background: #101d42;
+    	border-radius: 5px;
+    	padding:25px 25px;
+	}
+	.about-head_rv{
+		font-family: 'Roboto-Light'!important;
+    	font-size: 10px;
+    	text-align: left;
+    	margin: 5px 0px;
+	}
+	.about-sub2_rv{
+    	text-align: left;
+	}
+	.al_rv{
+		margin-top:25px;
+	}
+	.about-sub2_rv .text-cap{
+	    font-family: Roboto-Light !important;
+	    font-size: 14px;
+	    color: #fff;
+	}
+	.about-sub2_rv .text-cap-sub{
+	    font-family: 'Roboto-Light' !important;
+	    font-weight: 300;
+	    font-size: 12px;
+	    color: #afafaf;
+	}
+	.about-sub2_rv .text-cap-sub_1 {
+	    font-family: 'Roboto-Light' !important;
+	    font-weight: 300;
+	    font-size: 14px;
+	    color: #fff;
+	}
+	.about-content_rv p{
+		text-align: left;
+		font-size: 12px;
+		margin-bottom: 0rem;
+    	margin-top: 0px;
+    	color: #afafaf;
+	}
+	.about-content_rv{
+		margin-top: 0px;
+	}
+	.about-content-sub1_rv{
+		margin-top: 0px;
+	}
+	.about-content-sub2_rv, .about-content-sub3_rv{
+		margin-top: 15px;
+	}
+	.hmv_content{
+		display: none;
+	}
+	.mt-rv1{
+		margin-top: 25px;
+	}
+	.mt-rv2{
+		margin-top: 25px;
+	}
 	.section-sidebar{
 		position: absolute;
 		display: none;
@@ -6,7 +79,14 @@
 	.logo {
 	    left: 5.3%;
 	    top: 1%;
-	    width: 30px;
+	    width: 40px;
+	}
+	.heading-sub{
+		width: 100%;
+		font-size: 22px;
+	}
+	.text-p{
+		font-size: 16px;
 	}
 	.carousel-indicator{
 		display: none !important;
@@ -16,7 +96,7 @@
 	}
 	.graph{
 	    width:100%;
-	    padding:100px 50px;
+	    padding:50px 25px;
 	}
 	.product-details {
     	width: 100%;
@@ -59,4 +139,47 @@
 	.copyright {
     	font-size: 12px;
 	}
+	.slider-img{
+		width:150% !important;
+	}
+	.carousel-caption {
+	    left: 5% !important;
+	    width: 100% !important;
+	}
+	.carousel-caption-2 {
+	    left: 5% !important;
+	    width: 100% !important;
+	    top: 17% !important;
+	}
+	.carousel-inner {
+	    height: 100% !important;
+	}
+	#box-main {
+    	padding: 0px 10px;
+    }
+    .our-team {
+    	margin-left: 0rem !important;
+	}
+	.container::before {
+    	left: 3% !important;
+    	width: 2px !important;
+	}
+	.entry:nth-child(even) .time, .entry:nth-child(odd) .time {
+    	transform: translate(-15%, -200%) !important;
+	}
+	.time {
+    	left: 0% !important;
+    	transform: translate(-93%, -18%) !important;
+    	font-size: 12px !important;
+    	padding: 0px 15px !important;
+	}
+	.entry:nth-child(odd) .content, .entry:nth-child(even) .content {
+	    text-align: left;
+	    transform: translate(0%, -9px) !important;
+	}
+	.content{
+		width:100% !important;
+	}
 }
+
+
