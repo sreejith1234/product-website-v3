@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body class="overflow-hidden-x">
@@ -26,6 +27,9 @@
                 <a href="index.html">
                     <img src="logo.png">
                 </a>
+            </div>
+            <div class="menu_icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
             <section id="contact" style="background-image: url(img/Mask3.png);background-repeat:no-repeat;background-color: #1d294d!important;height: 100vh;width:100%;    background-attachment: fixed;
     background-size: cover;
@@ -134,11 +138,16 @@
         </div>
         <div class="section-sidebar">
             <nav class="fancynavbar fancynavbar-expand-lg">
-                <a href="contact.html">
+                <a class="contact_icon_lg" href="contact.html">
                     <div class="menu-icons">
                         <img src="img/call_email.png">
                     </div>
                 </a>
+                <div class="hide_icon_main">
+                    <div class="hide_icon">
+                        &times;
+                    </div>
+                </div>
                 <div class="side-menu">
                     <a href="product1.html">
                         <div class="products pm1">
@@ -150,27 +159,46 @@
                             <h3>Structural Heart<br> Disease - Asia Pacific</h3>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="product3.html">
                         <div class="products pm3">
                             <h3>Navigate <br>Clinical Trials</h3>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="product4.html">
                         <div class="products pm4">
                             <h3>Patient Waitlist <br>Management</h3>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="product5.html">
                         <div class="products pm5">
                             <h3>PREP</h3>
                         </div>
                     </a>
                 </div>
+                <a class="contact_icon_rv" href="contact.html">
+                    <div class="menu-icons">
+                        <img src="img/call_email.png">
+                    </div>
+                </a>
             </nav>
         </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/footer_include.js"></script>
+    <script>
+    $(document).ready(function() {
+        
+        $(".menu_icon").click(function(){
+          $(".section-sidebar").show();
+        });
+        $(".hide_icon").click(function(){
+          $(".section-sidebar").hide();
+        });
+        $(".products").click(function(){
+          $(".section-sidebar").hide();
+        });
+    });
+    </script>
 </body>
 </html>
