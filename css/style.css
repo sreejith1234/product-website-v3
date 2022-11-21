@@ -954,3 +954,30 @@ body{
     background-color: #E0E4EE;
     color: white;
 }
+.hlv_content{
+    display: none;
+}
+.contact_icon_lg{
+    display: block;
+}
+.hide_icon_main{
+    display: none;
+}
+.menu_icon{
+    display: none;
+}
+.our-team, #box-main{
+    display: block;
+}
+.our-team_rev{
+    display: none;
+}
+.our_team_test{
+    display: block;
+}
+.team_activit{
+    margin-top:50px;
+}
+.our_team_test_rev{
+    display: none;
+}
