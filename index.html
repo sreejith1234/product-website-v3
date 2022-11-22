@@ -277,27 +277,79 @@
                         </text>
                     </svg>
                 </div>
-                <div class="product-details">
+                <div id="datavault" class="product-details">
                     <div class="container-fluid">
-                        <h4 class="heading-main">Our Products & technology</h4>
-                        <h6 class="heading-sub">Data Platform-as-a-service offers a centralized data lake</h6>
+                        <h6 class="heading-sub">data PAAS for healthcare</h6>
                         <div class="row">
                             <div class="col-md-12 position-relative">
-                                <p class="text-sm text-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <p class="dpass-main"><span class="dpass-txt1">DatavaultForHealth</span> <span class="dpass-txt2">offers a centralized data lake that allows application to share, consume and update information in real time. Hosted in a secure, private cloud approved by the Ministry of Health, NZ., this abstracted data repository connects with the NHI database to validate patient demographics.</span></p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 position-relative">
-                                <h1 class="text-gradient text-count"><span>100</span>%</h1>
-                                <p class="text-sm text-p">It is a long established fact that a reader.</p>
+                                <h1 class="text-gradient text-count-cus"><span>100</span>%</h1>
+                                <p class="text-sm text-p-cus">UPTIME</p>
                             </div>
                             <div class="col-md-6 position-relative">
-                                <h1 class="text-gradient text-count"> <span>100</span>%</h1>
-                                <p class="text-sm text-p">The point of using Lorem.</p>
+                                <h1 class="text-gradient text-count-cus"> <span>100</span>%</h1>
+                                <p class="text-sm text-p-cus">SECURE</p>
                             </div>
                             <div class="col-md-6 position-relative">
-                                <h1 class="text-gradient text-count"> <span>100</span>%</h1>
-                                <p class="text-sm text-p">Many desktop publishing packages and web page editors.</p>
+                                <h1 class="text-gradient text-count-cus"> <span>100</span>%</h1>
+                                <p class="text-sm text-p-cus">API ACCESS</p>
+                            </div>
+                            <div class="col-md-6 position-relative">
+                                <h1 class="text-gradient text-count-cus"> <span>100</span>%</h1>
+                                <p class="text-sm text-p-cus">REGULATED</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="htm" style="display:none;" class="product-details">
+                    <div class="container-fluid">
+                        <h6 class="heading-sub">Hāpaitia te Hauora Manawa (HTM)</h6>
+                        <div class="row">
+                            <div class="col-md-12 position-relative">
+                                <p class="dpass-main"><span class="dpass-txt1">HTM</span> <span class="dpass-txt2">enables access to cardiac health to people in remote communities. This telehealth platform supports community nurses, patients and clinicians to collaborate in real time, on a need basis. Extensible to any care pathways, the system is currently being designed for diabetes, nephrology and other specialties.</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 position-relative">
+                                <h1 class="text-gradient text-count-cus"><span>ACCESS</span></h1>
+                                <p class="text-sm text-p-cus">remote, real time updates</p>
+                            </div>
+                            <div class="col-md-12 position-relative">
+                                <h1 class="text-gradient text-count-cus"> <span>LIVE CONFERENCE CALLS</span></h1>
+                                <p class="text-sm text-p-cus">patient, specialist, nurses, GP’s</p>
+                            </div>
+                            <div class="col-md-12 position-relative">
+                                <h1 class="text-gradient text-count-cus"> <span>LIVE PATIENT HEALTH DATA</span></h1>
+                                <p class="text-sm text-p-cus">ability to furnish daily follow up data</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="shd" style="display:none;" class="product-details">
+                    <div class="container-fluid">
+                        <h6 class="heading-sub">Structural Heart Disease – Asia Pacific (SHD-AP)</h6>
+                        <div class="row">
+                            <div class="col-md-12 position-relative">
+                                <p class="dpass-main"><span class="dpass-txt1">SHD-AP</span> <span class="dpass-txt2">needed a robust and scalable database application to capture information from patients undergoing valve implantation procedures.<br>
+                                Team ahimsa.global came up with a solution capable of storing pre / in & post procedure patient / valve data with follow-up visit data extending to several years.</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 position-relative">
+                                <h1 class="text-gradient text-count-cus"><span>HEART TEAM MEETINGS</span></h1>
+                                <p class="text-sm text-p-cus">capture multiple heart team<br>meetings for the same patient</p>
+                            </div>
+                            <div class="col-md-12 position-relative">
+                                <h1 class="text-gradient text-count-cus"> <span>MULTI DISCIPLINARY TEAM MEETINGS</span></h1>
+                                <p class="text-sm text-p-cus">supports multiple MDM’s for the patient</p>
+                            </div>
+                            <div class="col-md-12 position-relative">
+                                <h1 class="text-gradient text-count-cus"> <span>MORE PATIENT STAKEHOLDERS</span></h1>
+                                <p class="text-sm text-p-cus">ICU staff, anesthetists, cardiologists,<br>nurses, specialist consultants</p>
                             </div>
                         </div>
                     </div>
@@ -977,34 +1029,49 @@ printing and typesetting industry." transform="translate(121 3696)" font-size="2
         $(".products").click(function(){
           $(".section-sidebar").hide();
         });
-        
         $('#p1').hover(function() {
+            $("#datavault").hide();
+            $("#htm").show();
             $('#p1').css('fill', '#101d42');
             $('#pt1').css('fill', 'white');
         }, function() {
+            $("#datavault").show();
+            $("#htm").hide();
             // on mouseout, reset the background colour
             $('#p1').css('fill', '#e5e8f1');
             $('#pt1').css('fill', '#101d42');
         });
         $('#pt1').hover(function() {
+            $("#datavault").hide();
+            $("#htm").show();
             $('#p1').css('fill', '#101d42');
             $('#pt1').css('fill', 'white');
         }, function() {
+            $("#datavault").show();
+            $("#htm").hide();
             $('#p1').css('fill', '#e5e8f1');
             $('#pt1').css('fill', '#101d42');
         });
 
         $('#p2').hover(function() {
+            $("#datavault").hide();
+            $("#shd").show();
             $('#p2').css('fill', '#101d42');
             $('#pt2').css('fill', 'white');
         }, function() {
+            $("#datavault").show();
+            $("#shd").hide();
             $('#p2').css('fill', '#e5e8f1');
             $('#pt2').css('fill', '#101d42');
         });
         $('#pt2').hover(function() {
+            $("#datavault").hide();
+            $("#shd").show();
             $('#p2').css('fill', '#101d42');
             $('#pt2').css('fill', 'white');
         }, function() {
+            $("#datavault").show();
+            $("#shd").hide();
             $('#p2').css('fill', '#e5e8f1');
             $('#pt2').css('fill', '#101d42');
         });
