@@ -1,4 +1,6 @@
-
+.product1_card_img video{
+	width:400px;
+}
 @media only screen and (min-width:768px) and (max-width:992px){
 	
 }
@@ -21,6 +23,9 @@
 }
 .product1_card_img img{
     width:100%;
+}
+.product1_card_img video{
+	width:400px;
 }
 .product1_slider_img img{
 	width:50%;
@@ -120,16 +125,33 @@
 	}
 }
 @media only screen and (max-width: 600px) {
+.dpass-main {
+    width: 100%;
+}
+.product1 .entry:nth-child(odd) .content, .product1 .entry:nth-child(even) .content {
+    text-align: left;
+    transform: translate(3%, 5px) !important;
+}
+.product1 .entry:nth-child(even) .time, .product1 .entry:nth-child(odd) .time {
+    transform: translate(6%, -265%) !important;
+    text-align: center;
+}
+.product1 .time{
+	width:200px;
+}
 .product1 .indicator {
     position: absolute;
     top: -35px;
     z-index: 2;
-    left: calc(4.5% - 40px);
+    left: calc(4.5% - 38px);
     width: 30px;
     height: 30px;
     background-color: rgb(255 255 255);
     border-radius: 50%;
-    border: solid 2px #7165cc;
+    border: solid 1px #7165cc;
+}
+.product1_card_wave{
+	margin-top:25%
 }
 .product1 .indicator span {
     top: 0px;
@@ -140,10 +162,13 @@
     color: #131f44;
     font-size: 12px;
 }
+.product1_entry{
+	height:50px;
+}
 .product1_timeline_ipad img{
 	width: 230px;
     height: 200px;
-    transform: translate(-18%, -65%);
+    transform: translate(-18%, -77%);
     position: absolute;
     z-index: 10;
 }
@@ -167,6 +192,7 @@
 }
 .product1_slider_img{
 	margin-bottom: 0rem!important;
+	margin-top: 5rem!important;
 }
 .product1_slider_img img {
     width: 65%;

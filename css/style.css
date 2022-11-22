@@ -330,12 +330,12 @@ body{
     margin-top: -28px;
 }
 .heading-sub{
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 28px;
     color: #101d42;
-    width: 75%;
+    width: 100%;
     margin-bottom: 25px;
-    font-family: 'Roboto-Bold';
+    font-family: 'Roboto-Regular';
 }
 /*.about-content tspan{
     font-family: 'Roboto-Regular' !important;
@@ -369,6 +369,35 @@ body{
     color:#777777;
     font-family: 'Roboto-Regular' !important;
     font-size: 23px;
+}
+.dpass-txt1{
+    color: #101d42;
+    font-family: 'Roboto-Regular';
+    font-size: 25px;
+}
+.dpass-txt2{
+    color: #101d42;
+    font-family: 'Roboto-Light';
+    font-size: 20px;
+}
+.text-count-cus {
+    color: #c9c9c9;
+    font-family: 'Roboto-Regular';
+    font-size: 22px;
+    margin-bottom: 0rem;
+}
+.text-p-cus{
+    color: #0a2e93;
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+#p1, #p2, #p3, #p4, #p5{
+    cursor: pointer;
+}
+.dpass-main{
+    width:75%;
+    margin-bottom: 2rem;
 }
 .full-background {
     background-position: 50%;
