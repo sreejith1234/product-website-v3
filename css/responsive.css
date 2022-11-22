@@ -25,7 +25,7 @@
     width:100%;
 }
 .product1_card_img video{
-	width:400px;
+	width:100%;
 }
 .product1_slider_img img{
 	width:50%;
@@ -183,6 +183,7 @@
 }
 .product1_card_img{
 	width: 100%;
+	padding: 20px;
 }
 .product1_card_bg {
     transform: translate(0%, 0px);
